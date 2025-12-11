@@ -12,7 +12,7 @@ A simple Python script to generate QR codes from a URL.
 Install the required dependency using pip:
 
 ```bash
-pip install "qrcode[pil]"
+pip install -r requirements.txt
 ```
 
 ## Usage
@@ -22,7 +22,7 @@ pip install "qrcode[pil]"
 2. **Run the script**:
 
 ```bash
-python main.py
+python main.py --help
 ```
 
 3. **Output**: The generated QR code will be saved in the same directory as qrcode.png.
